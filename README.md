@@ -38,12 +38,12 @@ My project is organized in the following structure:
 <pre>
 $ git clone git@github.com:karlojacobsen/myRetail.git
 $ cd myRetail
-# to build
-$ gradle build
-# to test
-$ gradle test
+# to build 
+$ gradlew build # windows
+$ ./gradlew build # unix/linux
 # to run
-$ gradle bootRun
+$ gradlew bootRun # windows
+$ ./gradlew bootRun # unix/linux
 </pre>
 
 When the application is run, it will use the embedded Tomcat Server on port 8080 and the in-memory H2 database. Once the application starts up, the following endpoints are available:
