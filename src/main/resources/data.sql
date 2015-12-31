@@ -1,10 +1,3 @@
-INSERT INTO book(id,name,author,price) VALUES (1,'Spring In Action:Covers Spring 3.0','Craig Walls', 400);
-INSERT INTO book(id,name,author,price) VALUES (2,'Spring Batch In Action','Arnaud Cogoluegnes', 500);
-INSERT INTO book(id,name,author,price) VALUES (3,'Spring Book','Rod', 300);
-INSERT INTO book(id,name,author,price) VALUES (4,'Java Book','test', 100);
-INSERT INTO book(id,name,author,price) VALUES (5,'Spring Boot Application','test', 200);
-INSERT INTO book(id,name,author,price) VALUES (6,'Learn Spring Data JPA','test', 300);
-INSERT INTO book(id,name,author,price) VALUES (7,'Hibernat in Action','Gavin King', 300);
-INSERT INTO book(id,name,author,price) VALUES (8,'JSF in Action','Kit', 400);
-INSERT INTO book(id,name,author,price) VALUES (9,'Java Interview Questions','Subramanian', 450);
-INSERT INTO book(id,name,author,price) VALUES (10,'Java Complete Reference','Herbert', 450);
+INSERT INTO PRODUCT(id,sku,name,category,price,last_updated) VALUES (5555,'AEX143','Stroller','toys',199.99,'2014-05-23');
+INSERT INTO PRODUCT(id,sku,name,category,price,last_updated) VALUES (5543,'IOL123','Optimus Prime','baby',13.37,'2014-02-01');
+INSERT INTO PRODUCT(id,sku,name,category,price,last_updated) VALUES (7563,'XYZ904','Sega Genesis','toys',149.99,'1989-04-01');

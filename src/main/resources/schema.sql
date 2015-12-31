@@ -1,5 +1,8 @@
-create table book(
-      id int not null primary key,
-      name varchar_ignorecase(50) not null,
-      author varchar_ignorecase(50) not null,
-      price int);
+DROP TABLE IF EXISTS PRODUCT;
+
+CREATE TABLE PRODUCT (ID BIGINT IDENTITY ,
+                      NAME VARCHAR(255) NOT NULL,
+                      SKU VARCHAR(20) NOT NULL,
+                      CATEGORY VARCHAR(255) NOT NULL,
+                      PRICE DOUBLE NOT NULL,
+                      LAST_UPDATED DATE NOT NULL)
