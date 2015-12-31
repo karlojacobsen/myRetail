@@ -15,6 +15,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 
+bootRepackage {
+	mainClass = 'myretail.Application'
+}
+
 jar {
 	baseName = 'myretail'
 	version = '0.0.1'
